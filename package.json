@@ -1,0 +1,28 @@
+{
+  "name": "book-lending-platform",
+  "version": "1.0.0",
+  "description": "test driven book lending solution",
+  "main": "booklender.js",
+  "repository": "https://github.com/lawalgodwin/-book-lending-Platform.git",
+  "author": "Lawal Godwin <godwinl200@gmail.com>",
+  "license": "MIT",
+
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node booklender.js"
+  },
+ 
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.2.3",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "supertest": "^5.0.0"
+  }
+}
